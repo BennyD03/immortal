@@ -1,12 +1,13 @@
-
-    @media screen  and (min-width: 320px) and (max-width:768px) {
+ @media screen  and (min-width: 320px) and (max-width:768px) {
         .bottom {
             width: 100%;
             margin-bottom: 0;
+            height: 135%;
+            padding-bottom: 15;
         }
         .left {
             width: 100%;
-            height:800px
+            height: 100%;
         }
         .right {
             width: 100%;
@@ -29,7 +30,6 @@
             font-size: 30px;
         }
         .next {
-    margin-top: -200px;
     height: 70%;
         }
         .nextone img {
@@ -56,6 +56,7 @@
         }
         .services {
             height: 120%;
+            margin-top: 200px;
         }
         .services .a {
             width: 100%;
@@ -79,18 +80,19 @@
         }
         .d {
             width: 100%;
-            height: 70%;
+            height: 100%;
+            margin-bottom: -20px;
         }
         .d img {
             margin-left: 0%;
         }
-        p {
+         p {
          padding: 100px 0px 0px 10px;
         }
         .e {
             width: 100%;
             background-color: rgb(138, 23, 2);
-            height: 70%;
+            height: 100%;
         }
 .e p {
     margin-left: 0;
@@ -99,7 +101,7 @@
 .f {
     width: 100%;
     background-color: rgb(138, 23, 2);
-    height: 70%;
+    height: 100%;
 }
 .f iframe {
     width: 180px;
@@ -108,6 +110,6 @@
     width: 100%;
     background-color: rgb(138, 23, 2);
     text-align: center;
-    height: 53%;
+    height: 100%;
 }
     }
